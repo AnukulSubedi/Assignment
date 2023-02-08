@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anukul's CSS assignment</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    /* scroll-behavior: smooth; */
+}
+    body, html {
+  height: 100%;
+  margin: 0;
+}
+   .image {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url("photo.jpeg");
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image > h1{
+        color: rgb(216, 236, 32);
+        font-size:80px;
+        text-align: center;
+    }
+    .image > h3{
+        color: rgb(15, 230, 230);
+        font-size:50px;
+        text-align: center;
+    }
+    .image > .button{
+        
+        text-align: center;
+    }
+    input#go:hover{
+        background-color: rgb(245, 241, 237);
+        font-size: 30px;
+        padding: 20px;
+        margin-top: 80px;
+        border: 10px;
+        border-radius: 10px;
+    }
+    .bottom_1 > p{
+        padding:20px;
+        /* margin: 20px; */
+        /* border: 1px solid pink; */
+        background-color: rgb(248, 241, 234);
+        font-size: 15px;
+    }
+    .bottom_2 > p{
+        padding:10px;
+        /* margin: 10px; */
+        /* border: 1px solid rgb(49, 18, 1); */
+        background-color: rgb(176, 91, 5);
+        font-size: 15px;
+    }
+    .bottom_3{
+        display: flex;
+        height: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+        /* margin: 10px; */
+        /* border: 10px solid rgb(49, 18, 1); */
+        /* background-color: rgb(227, 144, 61); */
+        font-size: 18px;
+        /* flex-direction: row; */
+    }
+    .bottom_3 > div{
+        width: 33%;
+    }
+</style>
+<body>
+        <div class = "image">
+            <h1>This the world of</h1>
+            <h3>imageANDphoto</h3>
+            <h3><input class ="button" type ="button" value ="Read More"></h3>
+            </div>
+            
+            <div class="bottom_1">
+                <p>Photography is the art, application, and practice of creating durable images by recording light, either
+                electronically by means of an image sensor, or chemically by means of a light-sensitive material such as
+                photographic film. It is employed in many fields of science, manufacturing , and business, as well as its
+                more direct uses for art, film and video production, recreational purposes, hobby, and mass communication.
+                </p>
+            </div>
+            <div class="bottom_2">
+                <p>
+                   The word "photography" was created from the Greek roots φωτός (phōtós), genitive of φῶς (phōs), "light" and
+                  γραφή (graphé) "representation by means of lines" or "drawing",The word "photography" was created from the
+                  Greek roots φωτός (phōtós), genitive of φῶς (phōs), "light" and γραφή (graphé) "representation by means of
+                  lines" or "drawing", together meaning "drawing with light" together meaning "drawing with light"
+                </p>
+            </div>
+            <div class="bottom_3">
+                <div style="background-color: bisque; text-align: center;">Contact Us at: 9/11  </div>
+                <div style="text-align: centre;"> <a href="www.ruleyouphoto.com.np"> <u> email us</u> </a></div>
+                <div style=" background-color: rgb(198, 224, 51); justify-content: center; text-align: center;"> Kings college</div>
+            </div>
+        </div>
+</body>
+</html>
